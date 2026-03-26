@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Posts</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Simple Website</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="posts.html">Posts</a>
+    </nav>
+</header>
+
+<main>
+    <div class="posts-header">
+        <h2>Posts from API</h2>
+        <button id="loadPosts">Load Posts</button>
+    </div>
+
+    <!-- Search Filter -->
+    <input type="text" id="searchInput" placeholder="Search posts by title...">
+
+    <div id="postsContainer"></div>
+    <p id="errorMessage"></p>
+</main>
+
+<footer>
+    <p>© 2026 My Website</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
